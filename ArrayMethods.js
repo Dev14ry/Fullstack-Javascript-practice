@@ -23,10 +23,10 @@
 
 // # splice method of array.
 
-const arr6 = ["a","b","c","d"]
-const splicarr = arr6.splice(0,2);
-console.log(splicarr);
-console.log(arr6);
+// const arr6 = ["a","b","c","d"]
+// const splicarr = arr6.splice(0,2);
+// console.log(splicarr);
+// console.log(arr6);
 
 // yesle orginal array ma change garxa.
 
@@ -174,4 +174,57 @@ console.log(arr6);
 
 // # sort method of Array.
 
+// const sortData = [1,3,5,3,5,3,6,4,4,8];
+// const updatedSort = sortData.sort();
+// console.log(updatedSort);
+// console.log(sortData);
 
+
+// yo method le array ma bheko element lai alphabetical or ascending order rakhxa.
+// yo method le original array ma changes garxa.
+
+
+// # some method of Array
+
+// const someData = [4,5,7,4,8,9,3];
+// function myNum(num){
+//     return num<4;
+// }
+// console.log(someData.some(myNum));
+// yo method le array ma bhayeko harek element lai num 4 bata small xa ki knai check garxa  yedi exist garxa bhane true boolean return garxa.
+
+
+// # every method of Array.
+
+// const someData2 = [4,5,7,4,8,9,3];
+// function everyData(num){
+//     return num<6;
+// }
+// console.log(someData2.every(everyData));
+// yo method le array ma bhayeko harek element lai function ma bhayeko return statement satisfy garxa yadi satisfy garxa bhane true return garxa natra false.
+
+// # foreach method of Array.
+// const foreachData = [1,4,3,6,38,7,7,6];
+// const newupdatedata = foreachData.forEach((elem,idx,foreachData)=>{
+//     console.log(elem,idx);
+// })
+// console.log(newupdatedata);
+// console.log(foreachData);
+
+ 
+// yo method le call back function as a parameters pass garxa.
+// yo method le array ma bhayeko harek element ko value, id ra array print garera dinxa.
+// yesle  undefined value return garxa.
+// original array ma kunai change change gardaina.
+
+// # map method of Array.
+
+// const mapData = [1,5,3,6,4,7,3];
+// const updatedmapData=mapData.map((elem,idx)=>{
+//     return elem+idx;
+// })
+// console.log(updatedmapData);
+// console.log(mapData);
+
+// yo method le every element lai xutai array ma print garxa.
+// yesle original array ma kunai change gardaina.
