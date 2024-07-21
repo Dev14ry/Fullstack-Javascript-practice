@@ -1,0 +1,1 @@
+console.log(beasts.indexOf('giraffe'));
